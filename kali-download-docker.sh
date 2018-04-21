@@ -3,6 +3,4 @@ echo 'deb https://download.docker.com/linux/debian stretch stable' > /etc/apt/so
 apt-get update
 apt-get remove docker docker-engine docker.io
 apt-get install docker-ce -y
-docker run hello-world
 systemctl start docker
-docker rmi hello-world -f
