@@ -20,11 +20,11 @@ curl -L https://github.com/docker/machine/releases/download/v0.14.0/docker-machi
 curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 
+# Test docker-ce
+sudo docker run hello-world
+
 # Test docker machine
 docker-machine --version
 
 # Test docker-compose
 docker-compose --version
-
-# Test docker-ce
-sudo docker run hello-world
