@@ -21,7 +21,7 @@ curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compos
 chmod +x /usr/local/bin/docker-compose
 
 # Test docker-ce
-sudo docker run --rm hello-world
+docker run --rm hello-world
 
 # Test docker machine
 docker-machine --version
