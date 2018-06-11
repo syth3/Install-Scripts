@@ -4,8 +4,6 @@
 
 # Prepare machine
 apt-get remove docker docker-engine docker.io -y
-apt-get update -y
-apt-get install curl -y
 
 # Download docker-ce
 curl -fsSL get.docker.com -o get-docker.sh
