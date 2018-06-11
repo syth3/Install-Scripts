@@ -21,7 +21,7 @@ curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compos
 chmod +x /usr/local/bin/docker-compose
 
 # Test docker-ce
-sudo docker run --name hello-world hello-world
+sudo docker run --rm hello-world
 
 # Test docker machine
 docker-machine --version
@@ -30,5 +30,4 @@ docker-machine --version
 docker-compose --version
 
 # Removing hello-world image
-docker rm hello-world > /dev/null
 docker rmi hello-world:latest > /dev/null
