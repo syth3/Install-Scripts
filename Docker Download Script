@@ -3,9 +3,9 @@
 #   sudo usermod -aG docker <username>
 
 # Prepare machine
-apt-get remove docker docker-engine docker.io
-apt-get update
-apt-get install curl
+apt-get remove docker docker-engine docker.io -y
+apt-get update -y
+apt-get install curl -y
 
 # Download docker-ce
 curl -fsSL get.docker.com -o get-docker.sh
