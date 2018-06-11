@@ -1,3 +1,4 @@
+# Use this script to download docker-ce, docker-engine, and docker-compose to Linux
 # Run this script as root
 # To add a user to the docker group, use the following command:
 #   sudo usermod -aG docker <username>
