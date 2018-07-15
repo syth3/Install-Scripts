@@ -5,7 +5,7 @@ file: Docker-Download-Script.sh
 language: bash
 author: Jacob Brown
 description: download docker-ce, docker-engine, and docker-compose to most Linux distributions
-prerequisite: run script as root, check **NOTE** on lines 17 and 23 below
+prerequisite: run script as root, install curl, and check **NOTE** on lines 17 and 23 below
 Note: To add a user to the docker group, use the following command:
         sudo usermod -aG docker <username>
 '
