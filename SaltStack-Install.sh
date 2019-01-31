@@ -13,7 +13,7 @@ read -p 'IP address of SaltStack master: ' ipAddress
 read -p 'Minion ID: ' minionId
 if [ $answer = 'y' ]
 then
-    sudo sh install-salt.sh -M -A $ipaddress -i $minionId
+    sudo sh install-salt.sh -M -A $ipAddress -i $minionId
 else
     sudo sh install-salt.sh -A $ipAddress -i $minionId
 fi
