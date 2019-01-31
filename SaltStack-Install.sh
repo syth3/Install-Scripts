@@ -1,3 +1,14 @@
+#!/bin/bash
+
+: '
+file: SaltStack-Install.sh
+language: bash
+author: Jacob Brown
+description: download SaltStack master, minion, or both. If you download master, minion also gets installed (that's why it asks
+  for a minion idea regardless).
+Note: when downloading master, put 127.0.0.1 for IP Address prompt
+'
+
 # apt-get update
 sudo apt-get update
 
