@@ -1,3 +1,6 @@
+# Install curl
+sudo apt-get install curl -y
+
 # Install SaltStack Minion Software
 curl -L https://bootstrap.saltstack.com -o install-salt.sh
 
