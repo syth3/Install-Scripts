@@ -3,8 +3,9 @@
 import os
 import shutil
 import time
+from datetime import datetime
 
-start = time.time()
+start_time = datetime.now()
 
 rootdir = 'D:\\Documents\\Old Computer Drive'
 destdir = 'D:\\Pictures\\Old Pictures'
@@ -24,6 +25,4 @@ for subdir, dirs, files in os.walk(rootdir):
                 
 mapping_file.close()
 
-end = time.time()
-diff = end - start
-print("Elapsed Time:", diff)
+print("Time elapsed:", datetime.now() - start_time)
