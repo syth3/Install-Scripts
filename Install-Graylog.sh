@@ -1,4 +1,4 @@
-# This is a VERY rough script to install graylog. Need to iron it out
+# This is a VERY rough script to install graylog. Needs to be tested
 
 # Install Java
 sudo yum install java-1.8.0-openjdk-headless.x86_64 -y
