@@ -5,8 +5,8 @@
 curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
 echo 'deb [arch=amd64] https://download.docker.com/linux/debian buster stable' > /etc/apt/sources.list.d/docker.list
 apt-get update
-apt-get remove docker docker-engine docker.io
-apt-get install docker-ce docker-compose
+apt-get remove docker docker-engine docker.io -y
+apt-get install docker-ce docker-compose -y
 docker run hello-world
 systemctl enable docker
 docker rmi -f hello-world:latest > /dev/null
