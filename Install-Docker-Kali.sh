@@ -10,3 +10,4 @@ apt-get install docker-ce docker-compose -y
 docker run hello-world
 systemctl enable docker
 docker rmi -f hello-world:latest > /dev/null
+docker-compose --version
